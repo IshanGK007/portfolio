@@ -171,7 +171,7 @@ function Banner() {
 }
 
 function Model() {
-  const { scene } = useGLTF('../laptop_model.glb') // Replace with your model path
+  const { scene } = useGLTF('./laptop_model.glb') 
   return <primitive object={scene} scale={1.5} />
 }
 
