@@ -281,7 +281,7 @@ function App() {
       <section id="home" className="min-h-screen flex items-center justify-center px-4 md:px-12 pt-24 pb-12">
         <div className="w-full flex flex-col md:flex-row items-center justify-around">
           {/* Banner Text */}
-          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0" style={{ minWidth: '1300px' }}> {/* Added minWidth */}
+          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0" style={{ minWidth: '1000px' }}> {/* Added minWidth */}
             <Banner />
           </div>
 
